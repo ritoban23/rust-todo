@@ -1,5 +1,8 @@
-use axum::{body::Body, Router, routing::get};
+mod hello_world;
 
-pub fn create_routes() -> Router<Body> {
-    Router::new().route("/", get(|| async { "Hello, World!" }))
+use axum::{ Router, routing::get};
+use hello_world::hello_world;
+
+pub fn create_routes() -> Router {
+    Router::new().route("/", get(hello_world))
 }
