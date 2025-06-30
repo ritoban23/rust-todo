@@ -9,4 +9,5 @@
 - write hello world program in axum style and check http response with thunder client
 - 'cargo install cargo-watch' to install cargo watch(its similar to nodemon for node.js) so that every time we make a change and save, it autmatically restarts the server...now 'cargo watch -x run' to keep the server running
 - 'cargo doc' and 'cargo oc --open' to open docs in the browser, some issue relatedto wsl faced maybe have to use diff terminal
-- 
+-  make diff routes and files
+- for sending json through body install serde 'cargo add serde'
