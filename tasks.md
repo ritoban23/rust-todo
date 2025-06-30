@@ -4,5 +4,9 @@
 - 'cargo run' was showing some error on powershell so switched to wsl , error on wsl so did 'sudo apt update'
 'sudo apt install build-essential' to fix it, 'cargo run' gave output
 - 'cargo add axum' and 'cargo add tokio'
-- added /target anf **/*.rs.bk to .gitignore ....(/target is for compiled build files, **/*.rs.bk is for backup Rust files, if any 
+- added /target anf **/*.rs.bk to .gitignore ....(/target is for compiled build files, **/*.rs.bk is for backup Rust files, if any)
+- 'cargo add tokio -F macros -F rt-multi-thread'
+- write hello world program in axum style and check http response with thunder client
+- 'cargo install cargo-watch' to install cargo watch(its similar to nodemon for node.js) so that every time we make a change and save, it autmatically restarts the server...now 'cargo watch -x run' to keep the server running
+- 'cargo doc' and 'cargo oc --open' to open docs in the browser, some issue relatedto wsl faced maybe have to use diff terminal
 - 
